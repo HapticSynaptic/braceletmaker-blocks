@@ -29,7 +29,7 @@ goog.require('Blockly.Blocks');
  */
 
 Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: none">' +
-  '<category name="%{BKY_CATEGORY_MOTION}" id="motion" colour="#4C97FF" secondaryColour="#3373CC">' +
+  '<category name="%{BKY_CATEGORY_MOTION}" id="motion" colour="#9966ff" secondaryColour="#63c">' +
     '<block type="motion_movesteps" id="motion_movesteps">' +
       '<value name="STEPS">' +
         '<shadow type="math_number">' +
@@ -275,7 +275,7 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
       '</value>' +
     '</block>' +
   '</category>' +
-  '<category name="%{BKY_CATEGORY_CONTROL}" id="control" colour="#FFAB19" secondaryColour="#CF8B17">' +
+  '<category name="%{BKY_CATEGORY_CONTROL}" id="control" colour="#9966FF" secondaryColour="#774DCB">' +
     '<block type="control_wait" id="control_wait">' +
       '<value name="DURATION">' +
         '<shadow type="math_positive_number">' +
@@ -348,7 +348,7 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '<block type="sensing_current" id="sensing_current"></block>' +
     '<block type="sensing_dayssince2000" id="sensing_dayssince2000"></block>' +
   '</category>' +
-  '<category name="%{BKY_CATEGORY_OPERATORS}" id="operators" colour="#40BF4A" secondaryColour="#389438">' +
+  '<category name="%{BKY_CATEGORY_OPERATORS}" id="operators" colour="#62ddd7" secondaryColour="#40cebb">' +
     '<block type="operator_add" id="operator_add">' +
       '<value name="NUM1">' +
         '<shadow type="math_number">' +
@@ -518,11 +518,11 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
       '</value>' +
     '</block>' +
   '</category>' +
-  '<category name="%{BKY_CATEGORY_VARIABLES}" id="data" colour="#FF8C1A" secondaryColour="#DB6E00" custom="VARIABLE">' +
+  '<category name="%{BKY_CATEGORY_VARIABLES}" id="data" colour="#fdc611" secondaryColour="#cf9f02" custom="VARIABLE">' +
   '</category>' +
-  '<category name="%{BKY_CATEGORY_MYBLOCKS}" id="more" colour="#FF6680" secondaryColour="#FF4D6A" custom="PROCEDURE">' +
+  '<category name="%{BKY_CATEGORY_MYBLOCKS}" id="more" colour="#f97e53" secondaryColour="#FF4D6A" custom="PROCEDURE">' +
   '</category>' +
-  '<category name="Extensions" id="extensions" colour="#FF6680" secondaryColour="#FF4D6A" ' +
+  '<category name="Extensions" id="extensions" colour="#f97e53" secondaryColour="#FF4D6A" ' +
     'iconURI="../media/extensions/wedo2-block-icon.svg" showStatusButton="true">' +
     '<block type="extension_pen_down" id="extension_pen_down"></block>' +
     '<block type="extension_music_drum" id="extension_music_drum">' +

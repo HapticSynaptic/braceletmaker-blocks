@@ -41,9 +41,9 @@ Blockly.Colours = {
     "tertiary": "#BD42BD"
   },
   "control": {
-    "primary": "#FFAB19",
-    "secondary": "#EC9C13",
-    "tertiary": "#CF8B17"
+    "primary": "#9966FF",
+    "secondary": "#855CD6",
+    "tertiary": "#774DCB"
   },
   "event": {
     "primary": "#FFBF00",
@@ -61,14 +61,14 @@ Blockly.Colours = {
     "tertiary": "#0B8E69"
   },
   "operators": {
-    "primary": "#59C059",
+    "primary": "#62ddd7",
     "secondary": "#46B946",
-    "tertiary": "#389438"
+    "tertiary": "#40cebb"
   },
   "data": {
-    "primary": "#FF8C1A",
+    "primary": "#fdc611",
     "secondary": "#FF8000",
-    "tertiary": "#DB6E00"
+    "tertiary": "#cf9f02"
   },
   // This is not a new category, but rather for differentiation
   // between lists and scalar variables.
@@ -78,13 +78,13 @@ Blockly.Colours = {
     "tertiary": "#E64D00"
   },
   "more": {
-    "primary": "#FF6680",
+    "primary": "#f97e53",
     "secondary": "#FF4D6A",
     "tertiary": "#FF3355"
   },
   "text": "#575E75",
   "workspace": "#F9F9F9",
-  "toolboxHover": "#4C97FF",
+  "toolboxHover": "#9966ff",
   "toolboxSelected": "#e9eef2",
   "toolboxText": "#575E75",
   "toolbox": "#FFFFFF",

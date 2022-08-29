@@ -617,7 +617,11 @@ Blockly.Toolbox.CategoryMenu.prototype.populate = function(domTree) {
     if (!child.tagName || child.tagName.toUpperCase() != 'CATEGORY') {
       continue;
     }
-    categories.push(child);
+
+    var hiddenCategoryIds = ['motion', 'looks', 'sound', 'sensing'];
+    if (!hiddenCategoryIds.includes(child.id)) {
+      categories.push(child);
+    }
   }
 
   // Create a single column of categories
